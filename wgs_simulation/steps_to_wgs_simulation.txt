@@ -1,0 +1,7 @@
+1. Generate each mutation rate simulation in a separate directory
+2. Use reference wgs: Homo_sapiens.GRCh38.dna.chromosome.19_header_line_removed.fa
+3. Example for 100 simulations of 8 wgs (4 samples per population):
+    srun --pty /bin/bash
+    sbatch --time=300:00:00 wgs_mut_slurm_job_submit.slurm
+    8 samples are generated recursively by adding mutations
+    We used 0.001 0.01 0.1 1.0 10.0 mutation rates

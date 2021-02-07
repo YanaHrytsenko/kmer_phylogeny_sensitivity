@@ -1,0 +1,2 @@
+1)srun --pty /bin/bash
+2)sbatch --time=300:00:00 wgs_mut_slurm_job_submit.slurm
