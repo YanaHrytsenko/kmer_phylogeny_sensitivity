@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+#Yana Hrytsenko
+
+
 import sys
 import subprocess
 from os import listdir
