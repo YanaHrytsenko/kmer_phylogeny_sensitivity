@@ -1,0 +1,2 @@
+/data/schwartzlab/yana/working_w_Rust/kmer_cos_dist/input_files/4_mers_0.001_sim_1/intersection_a_4mer_profile_sorted_b_4mer_profile_sorted.txt 0.9999999998857154 0.00000000011428458179807421
+/data/schwartzlab/yana/working_w_Rust/kmer_cos_dist/input_files/4_mers_0.001_sim_1/intersection_a_4mer_profile_sorted_c_4mer_profile_sorted.txt 0.9999999997813117 0.000000000218688289699287
