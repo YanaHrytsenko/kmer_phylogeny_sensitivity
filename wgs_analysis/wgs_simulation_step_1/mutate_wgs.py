@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+i#!/usr/bin/env python3
 
 #Yana Hrytsenko
 
@@ -6,39 +6,61 @@ import os
 import sys
 import random
 
-def mutate_sequence(origin_sequence, mutation_rate):
 
-    nucleotide_alhabet = ['A', 'T', 'C', 'G']
+def generate_mutation_dict(number_of_mutations, origin_sequence):
 
-    result_sequence = origin_sequence[:]
+    mutation_positions = random.sample(range(len(origin_sequence)-1), number_of_mutations)
 
-    result_sequence = list(result_sequence)
+    four_nucleotides = ['A', 'T', 'C', 'G']
+    mutations = {}
 
-    for position in range(len(result_sequence)):
-        if (result_sequence[position] == 'N'):
+    for position in mutation_positions:
+
+        char_at_position = origin_sequence[position]
+
+        if (char_at_position == 'N'):
+
             break
         else:
-            if (random.uniform(0.0, 1.0) <= (mutation_rate / 100.0 * 1.0)):
-                result_sequence[position] = random.choice(nucleotide_alhabet) #pick a random nucleotide from nucleotide_alhabet
+            four_nucleotides_copy = four_nucleotides[:]
 
-    mutated_string = ''.join(result_sequence) #join the list of nucleotides back into string
+            four_nucleotides_copy.remove(char_at_position)
+
+            replacement_nucleotide = four_nucleotides_copy[random.randint(0, len(four_nucleotides_copy)-1)]
+
+            key = position
+            value = replacement_nucleotide
+            mutations[key] = value
+
+    return mutations
+
+def mutate_sequence(origin_sequence, number_of_mutations):
+
+    mutations = generate_mutation_dict(number_of_mutations, origin_sequence)
+
+    result_sequence = origin_sequence[:]
+    result_sequence = list(result_sequence)
+
+    for key in mutations:
+        result_sequence[key] = mutations[key]
+
+    mutated_string = ''.join(result_sequence)
 
     return mutated_string
 
 
-def breed(ref_seq, mutation_rate, height_of_the_tree):
+def breed(chromo_19_ref, number_of_mutations, height_of_the_tree):
 
-    child1 = ref_seq
-    child2 = ref_seq
+    child1 = chromo_19_ref
+    child2 = chromo_19_ref
 
-    child1 = mutate_sequence(child1, mutation_rate)
-    child2 = mutate_sequence(child2, mutation_rate)
+    child1 = mutate_sequence(child1, number_of_mutations)
+    child2 = mutate_sequence(child2, number_of_mutations)
 
     if (height_of_the_tree == 0):
         return [child1, child2]
     else:
-        return breed(child1, mutation_rate, height_of_the_tree - 1) + breed(child2, mutation_rate, height_of_the_tree - 1)
-
+        return breed(child1, number_of_mutations, height_of_the_tree - 1) + breed(child2, number_of_mutations, height_of_the_tree - 1)
 
 if __name__ == '__main__':
 
@@ -50,15 +72,17 @@ if __name__ == '__main__':
 
     original_sequence = ''
 
-    #concatinating genome line by line
     for line in reference_genome_file:
         original_sequence = original_sequence + line.strip()
 
     reference_genome_file.close()
 
-    random.seed(rand_seed)
+    number_of_mutations = int((len(original_sequence) * mutation_rate) / 100)
 
-    sequence_children = breed(original_sequence, mutation_rate, 2) #log base 2 of 8 = 3 - 1 = 2 levels of the phylogenetic tree
+
+
+    random.seed(rand_seed)
+    sequence_children = breed(original_sequence, number_of_mutations, 2) #log base 2 of 8 = 3, then - 1 (recursion hits two levels, not 3)
 
     list_of_out_files = ['a.fa', 'b.fa', 'c.fa', 'd.fa', 'e.fa', 'f.fa', 'g.fa', 'h.fa']
 
