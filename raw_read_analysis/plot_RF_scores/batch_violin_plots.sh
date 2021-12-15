@@ -7,7 +7,7 @@
 
 for k in  4 5 6 7 8 9 10 11 12 16
 do
-    rf_score_dirs="raw_reads_analysis/compare_phylogenies/CosDist_RF_scores/${k}Mers_RF_scores/"
+    rf_score_dirs=""
 
     python3 violin_plot_RF_scores.py ${k} ${rf_score_dirs} ${k}_Mers_RF_scores_violin_plot_sim_CosineDist.pdf
 

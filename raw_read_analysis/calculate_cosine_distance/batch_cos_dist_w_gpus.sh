@@ -6,7 +6,7 @@ do
     do
         for k in 4 5 6 7 8 9 10 11 12 16 21 22 23
         do
-            path_to_fas_by_sim="/raw_read_analysis/raw_reads_simualtion/generate_illumina_reads/simulated_reads/10X/${rate}_sub_rate/sim_${sim}/"
+            path_to_fas_by_sim=""
 
             k_mer_dir="${path_to_fas_by_sim}${k}_mers_mut_rate_${rate}_sim_${sim}/"
 
@@ -17,8 +17,6 @@ do
             pth=${kmer_intersection_dir}
 
             if [ ! -f ${pth}${k}_mers_${rate}_mut_rate_${sim}_sim_cos_dist_results.txt ]; then
-
-                echo "distance file doesn't exist, start calculating distances"
 
                 FILELIST=( $( find $pth -maxdepth 1 -name "*.txt" |sort) )
 

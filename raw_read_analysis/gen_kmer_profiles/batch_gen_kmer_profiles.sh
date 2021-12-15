@@ -7,7 +7,7 @@ do
         for k in 4 5 6 7 8 9 10 11 12 16 21 22 23
         do
 
-            path_to_fas_by_sim="/raw_read_analysis/raw_reads_simualtion/generate_illumina_reads/simulated_reads/10X/${rate}_sub_rate/sim_${sim}/"
+            path_to_fas_by_sim=""
 
             python3 gen_kmer_profiles.py $k ${path_to_fas_by_sim}
 

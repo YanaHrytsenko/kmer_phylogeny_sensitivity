@@ -10,7 +10,7 @@ do
       for k in 4 5 6 7 8 9 10 11 12 16 21 22 23
       do
 
-         path_to_fas_by_sim="wgs_analysis/wgs_simulation_step_1/sample_sequences/${rate}_mut_rate/sim_${sim}/"
+         path_to_fas_by_sim=""
 
          k_mer_dir="${path_to_fas_by_sim}${k}_mers_mut_rate_${rate}_sim_${sim}/"
 

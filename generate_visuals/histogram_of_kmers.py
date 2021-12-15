@@ -13,12 +13,31 @@ with open(name, "r") as f:
         freq.append(vals)
 f.close()
 
+#get stats
+
+#freq.sort() #sorting a list of ints low to high
+
+total_freqs = len(freq) # how many kmers are in there
+
+
+#how many are less that 10^5?
+acc_less_10_pow_5 = 0
+
+for num in freq:
+    if (num < (10.0 ** 5)):
+        acc_less_10_pow_5 += 1
+
+prcnt = acc_less_10_pow_5 / total_freqs * 100
+
+print(prcnt)
+
+
 bins = [10,100,1000,10000,100000,1000000,10000000]
 
 
 plt.xscale('log')
 plt.yscale('log')
-plt.hist(freq, bins)
+plt.hist(freq, bins='scott')
 plt.savefig(histName, bbox_inches='tight')
 
 '''

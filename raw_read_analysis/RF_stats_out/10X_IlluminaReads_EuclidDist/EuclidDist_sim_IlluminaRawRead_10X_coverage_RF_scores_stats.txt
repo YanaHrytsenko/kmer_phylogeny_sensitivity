@@ -1,0 +1,161 @@
+
+Statistics for 10_Mers: 
+==========================
+10_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+10_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+10_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+10_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+10_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+
+Statistics for 11_Mers: 
+==========================
+11_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+11_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+11_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+11_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+11_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+
+Statistics for 12_Mers: 
+==========================
+12_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+12_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+12_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+12_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+12_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+
+Statistics for 16_Mers: 
+==========================
+16_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+16_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+16_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+16_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+16_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+
+Statistics for 21_Mers: 
+==========================
+21_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+21_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+21_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+21_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+21_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+
+Statistics for 22_Mers: 
+==========================
+22_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+22_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+22_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+22_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+22_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+
+Statistics for 23_Mers: 
+==========================
+23_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+23_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+23_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+23_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+
+23_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+10.0       10.0      0.0   0.0
+

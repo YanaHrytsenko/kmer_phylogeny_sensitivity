@@ -11,7 +11,7 @@ do
         for k in 4 5 6 7 8 9 10 11 12 16 21 22 23
         do
 
-          newick_dir="wgs_analysis/build_phylogenies_step_6/${rate}_mut_rate_all_k_mer_vals/"
+          newick_dir=""
 
           mkdir "CosDist_RF_scores"
 

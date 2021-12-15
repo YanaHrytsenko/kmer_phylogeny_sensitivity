@@ -21,5 +21,5 @@ nstyle["hz_line_color"] = "#cccccc"
 for n in t.traverse():
    n.set_style(nstyle)
 
-t.show(tree_style=ts)
-#t.render("mytree.svg")
+#t.show(tree_style=ts)
+t.render("mytree.png", dpi=300)

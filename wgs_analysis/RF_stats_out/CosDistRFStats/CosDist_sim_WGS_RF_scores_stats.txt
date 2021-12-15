@@ -1,0 +1,230 @@
+
+Statistics for 4_Mers: 
+==========================
+4_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+3.02       2.0      2.1554722466458727   0.21554722466458726
+
+4_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+4.2       4.0      2.5505000500000987   0.25505000500000985
+
+4_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+4.4       4.0      2.3783535600422527   0.23783535600422523
+
+4_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+4.22       4.0      2.410331298742347   0.24103312987423475
+
+4_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+4.2       4.0      2.4370871833797696   0.243708718337977
+
+
+Statistics for 5_Mers: 
+==========================
+5_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+1.38       2.0      1.5490629295144724   0.15490629295144726
+
+5_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+2.02       2.0      2.0200010000997626   0.2020001000099762
+
+5_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+2.14       2.0      2.0744720637873972   0.20744720637873973
+
+5_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+2.26       2.0      2.1955878621922786   0.21955878621922786
+
+5_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+2.66       2.0      2.031171230018918   0.20311712300189183
+
+
+Statistics for 6_Mers: 
+==========================
+6_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+0.64       0.0      1.1327984477533164   0.11327984477533164
+
+6_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+1.02       0.0      1.4905764595679691   0.1490576459567969
+
+6_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+1.16       0.0      1.509030058405636   0.15090300584056357
+
+6_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+1.06       0.0      1.489491812191614   0.1489491812191614
+
+6_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+1.44       2.0      1.5847760572128642   0.1584776057212864
+
+
+Statistics for 7_Mers: 
+==========================
+7_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+9.28       10.0      1.2233420031069222   0.12233420031069223
+
+7_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+9.14       10.0      1.3410383433682418   0.13410383433682418
+
+7_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+9.04       10.0      1.37745190020332   0.13774519002033206
+
+7_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+9.22       10.0      1.2356652810808786   0.12356652810808785
+
+7_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+9.3       10.0      1.3446489534747752   0.13446489534747752
+
+
+Statistics for 8_Mers: 
+==========================
+8_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+9.12       10.0      1.4018746467685779   0.1401874646768578
+
+8_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+8.82       10.0      1.7313508476261412   0.17313508476261413
+
+8_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+8.96       10.0      1.3478003029253467   0.13478003029253469
+
+8_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+8.56       9.0      1.7770705664041027   0.17770705664041025
+
+8_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+9.04       10.0      1.3174815276722387   0.13174815276722388
+
+
+Statistics for 9_Mers: 
+==========================
+9_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+0.1       0.0      0.4380858271151806   0.043808582711518065
+
+9_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+0.14       0.0      0.5128647999524856   0.05128647999524856
+
+9_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+0.26       0.0      0.7865022940753947   0.07865022940753946
+
+9_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+0.28       0.0      0.8537498983243798   0.08537498983243798
+
+9_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+0.26       0.0      0.8362977576162329   0.08362977576162328
+
+
+Statistics for 10_Mers: 
+==========================
+10_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+0.12       0.0      0.47736651315188405   0.04773665131518841
+
+10_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+0.1       0.0      0.5222329678670935   0.05222329678670935
+
+10_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+0.24       0.0      0.7123726184201267   0.07123726184201266
+
+10_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+0.22       0.0      0.6289320754704403   0.06289320754704403
+
+10_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+0.18       0.0      0.7018014338295787   0.07018014338295787
+
+
+Statistics for 11_Mers: 
+==========================
+11_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+0.08       0.0      0.3938927711338647   0.03938927711338648
+
+11_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+0.08       0.0      0.4857567250791243   0.048575672507912435
+
+11_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+0.18       0.0      0.6416519085276469   0.0641651908527647
+
+11_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+0.22       0.0      0.6289320754704403   0.06289320754704403
+
+11_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+0.2       0.0      0.6666666666666667   0.06666666666666667
+
+
+Statistics for 12_Mers: 
+==========================
+12_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+0.12       0.0      0.47736651315188405   0.04773665131518841
+
+12_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+0.08       0.0      0.3938927711338647   0.039389277113386474
+
+12_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+0.18       0.0      0.5752469825293227   0.057524698252932285
+
+12_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+0.2       0.0      0.6030226891555273   0.06030226891555272
+
+12_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+0.12       0.0      0.47736651315188405   0.0477366513151884
+
+
+Statistics for 16_Mers: 
+==========================
+16_Mers 0.001 mutation rate: 
+mean     median     std_dev           std_err    
+0.26       0.0      0.6759953379792623   0.06759953379792621
+
+16_Mers 0.01 mutation rate: 
+mean     median     std_dev           std_err    
+0.22       0.0      0.6901910144037202   0.06901910144037202
+
+16_Mers 0.1 mutation rate: 
+mean     median     std_dev           std_err    
+0.26       0.0      0.7865022940753947   0.07865022940753948
+
+16_Mers 1.0 mutation rate: 
+mean     median     std_dev           std_err    
+0.22       0.0      0.6289320754704403   0.06289320754704403
+
+16_Mers 10.0 mutation rate: 
+mean     median     std_dev           std_err    
+0.22       0.0      0.6289320754704403   0.06289320754704404
+

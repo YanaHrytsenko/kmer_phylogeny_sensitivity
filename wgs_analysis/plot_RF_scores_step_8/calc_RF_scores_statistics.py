@@ -31,7 +31,9 @@ for i in range(len(mut_rates)):
 
     stdev_rf = stdev(float(item) for item in list(rf_scores))
 
-    mean_rf = float(mean(list(rf_scores)))
+    mean_rf = float(mean([float(item) for item in list(rf_scores)]))
+
+    #mean_rf = float(sum(list(rf_scores)) / len(list(rf_scores)))
 
     median_rf = float(median(list(rf_scores)))
 
